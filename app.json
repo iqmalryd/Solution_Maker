@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "Concvertion",
-    "slug": "Concvertion",
+    "name": "Solution Maker",
+    "slug": "Solution-Maker",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./src/assets/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -20,7 +20,12 @@
       "supportsTablet": true
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": ""
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "package": "com.riyadev.solutionMaker",
+      "versionCode": 1
     }
   }
 }
